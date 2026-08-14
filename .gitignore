@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Logs & PID
+*.log
+*.pid
+
+# 接口规范文档与压缩包（本地保留，不上传）
+接口.zip
+三大直流-数据接口规范（WMS）_20191218.docx
+三大直流-数据接口规范（雷电）_20191218.docx
+三大直流-数据接口规范（密集通道）_20200524.docx
+密集通道信息数据表.xlsx
+特高压接口.xlsx

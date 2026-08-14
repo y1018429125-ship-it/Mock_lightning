@@ -1,0 +1,25 @@
+curl 'http://10.238.0.5:31269/tgyApiservice/devicedataservice/getTripInfoData' \
+  -H 'Connection: keep-alive' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'withCredentials: true' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 SGSBrowser/2.0 Safari/537.36' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'Origin: http://10.238.0.5:31269' \
+  -H 'Referer: http://10.238.0.5:31269/' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  --data-raw 'timeOrderBy=1&startTime=2026-05-05 00:00:00&endTime=2026-06-05 23:59:59&pressureType=1&page=0&pageSize=10&access_token=0463959201807F95FE55295A823ADEF63A14D22A5C32071C7A8D41456DA8DC6A94630A9317EB1F679067FBBB6DF8A87C795352630AB312C9361CC4DDD8C9E46A46D9F115FDA287BAC52AAAE944D180055D8A8CA7D5767E0A7F250FC2103D249D3B36F68DD5204358998D41AE71BDD5D523F6D8' \
+  --compressed \
+  --insecure
+
+curl -X POST 'http://10.238.0.5:31269/tgyApiservice/devicedataservice/getTripInfoData' \
+  -d 'timeOrderBy=1' \
+  -d 'startTime=2025-05-08 00:00:00' \
+  -d 'endTime=2025-05-08 23:59:59' \
+  -d 'pressureType=1' \
+  -d 'page=0' \
+  -d 'pageSize=999' \
+  -d 'access_token=046794F8885BAB6CBA42C79A4C220089D152D9417F65983DFF3930851D18F922DC30727B89A32D2D03741921EE89D70D5D1F8BB43304C65DE568CEDA5DDE59B448A3E1829CA67377A2FC5443488D76CB34CE939F406EF06E635EED5554512E4E588CE3ED55045F365066C00A50A6C5E5A099D8'
+
+
+
+{"code":1001,"data":{"data":[{"year":"2025","province":"江西","voltage":"±800kV","tripLineName":"雅湖线","tripDate":"2025-05-08 19:46:30.56","tripTime":null,"tripClass":"雷击","reason1":"雷击","reason2":null,"tripTowerID":"3522","faultPhase":"极Ⅱ","reclosingSituation":"2025-05-08 19:46:30 056毫秒±800kV雅湖线线路发生雷击故障，重合闸未知，故障相别为极Ⅱ，故障点位于3365号杆塔和3638号杆塔之间，(湖南省)，距离3365号杆塔大号方向81.011km，故障点位于3522号杆塔附近，所属局是国网湖南省电力有限公司输电检修分公司。","path":null,"tripDateTime":"2025-05-08 19:46:30","id":2100,"tripId":"S_Y202505080552","reclosureStatus":"重合未知","upload_pdf":null,"upload_word":null,"upload_user_id":null,"create_time":null},{"year":"2025","province":"湖南","voltage":"1000kV","tripLineName":"荆潇Ⅰ线","tripDate":"2025-05-08 08:30:24.453","tripTime":null,"tripClass":"非雷击","reason1":"非雷击","reason2":null,"tripTowerID":"489","faultPhase":"C相","reclosingSituation":"2025-05-08 08:30:23 251毫秒1000kV荆潇一线线路发生雷击故障，重合闸不成功，故障相别为C相，故障点位于440号杆塔和498号杆塔之间，(湖南省)，距离440号杆塔大号方向24.654km，故障点位于489号杆塔附近，所属局是国网湖南省电力有限公司输电检修分公司。","path":null,"tripDateTime":"2025-05-08 08:30:24","id":1992,"tripId":"C01120250508A0003-C011","reclosureStatus":"重合未动作","upload_pdf":null,"upload_word":null,"upload_user_id":null,"create_time":null},{"year":"2025","province":"湖南","voltage":"1000kV","tripLineName":"荆潇Ⅰ线","tripDate":"2025-05-08 08:30:23.251","tripTime":null,"tripClass":"非雷击","reason1":"非雷击","reason2":null,"tripTowerID":"489","faultPhase":"C相","reclosingSituation":"故障告警：2025-05-08 08:30:21 251毫秒，湖南公司1000kV荆潇一线线路发生跳闸，故障相为C相，重合闸成功，位置在440号杆塔和498号杆塔之间，距离440号杆塔大号方向24.557公里，故障点位于489号杆塔附近，位于湖南省岳阳市，所属单位是国网湖南省超高压输电公司。(故障点实时气象：温度21.5℃，风速1.9m/s，降水1.11mm；数据来源：气象实况插值)","path":null,"tripDateTime":"2025-05-08 08:30:23","id":1993,"tripId":"C01120250508A0002","reclosureStatus":"重合成功","upload_pdf":null,"upload_word":null,"upload_user_id":null,"create_time":null}],"count":3}}

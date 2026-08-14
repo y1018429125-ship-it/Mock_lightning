@@ -1,0 +1,20 @@
+curl 'http://10.238.0.5:31269/tgyApiservice/tripdiagnosisservice/tripDiagnosis' \
+  -H 'Connection: keep-alive' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'withCredentials: true' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 SGSBrowser/2.0 Safari/537.36' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'Origin: http://10.238.0.5:31269' \
+  -H 'Referer: http://10.238.0.5:31269/' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  --data-raw 'tripId=S_Y202505080552&access_token=0432EDB546E8A67A8395033AC5C277DD7F9AD8043AAE8C00B1BB09709FD66F327BB66D493585032C11897A21F1DE8D51CAC6B1CDC0C62CFE2B0487A25867488D8B26BCD4BAFEB5A0E64B9E20B7F1C9BA098BE8B519EC7F10BF4E55BFB0EEE5CCDD32DA08C585E4558EF49945F28E079428FE84' \
+  --compressed \
+  --insecure
+
+curl -X POST 'http://10.238.0.5:31269/tgyApiservice/tripdiagnosisservice/tripDiagnosis' \
+  -d 'tripId=S_Y202505080552' \
+  -d 'access_token=0488A454FAC7E498A6107A27334F0367108861FE93CD9AD6D94435FDADD1C260E641CFBB59128A345D21106CAAE25BC1EF245C75F0ED1AAA8013C472839BAD68722C5B6ABE5FE33029FD0005F85531B0092CC867FBB3C7ABD524CBDA796DB734B1C58D0AFC642D7A7F49BCD24B798C59CAEF98'
+
+
+
+{"code":1001,"data":{"typhoon":{},"trip":{"tripId":"S_Y202505080552","tripTime":"2025-05-08 19:46:30","tripMillisecond":56,"tripLineName":"雅湖线","tripTowerNo":"3522","chzFlag":3,"flashFlag":1,"recordTime":"2025-08-01 11:11:34","tripCause":"雷击","tripClass":"雷击","tripInfo":null,"tripDescription":"2025-05-08 19:46:30 056毫秒±800kV雅湖线线路发生雷击故障，重合闸未知，故障相别为极Ⅱ，故障点位于3365号杆塔和3638号杆塔之间，(湖南省)，距离3365号杆塔大号方向81.011km，故障点位于3522号杆塔附近，所属局是国网湖南省电力有限公司输电检修分公司。","tripPhase":"极Ⅱ","tripStation1":"特高压雅砻江站","tripDiaelepo1":"3365号杆塔","tripStation2":"特高压鄱阳湖站","tripDiaelepo2":"3638号杆塔","id":2042,"province":"江西","viewStatus":0,"tripPressure":"±800","tripEleoffName":"国网湖南省电力有限公司输电检修分公司"},"weather":{},"result":"雷击-绕击。","historyIce":{},"report1":"  分布式监测系统诊断故障原因为雷击，雷电定位系统查得3522塔附近5000m范围，前后一分钟内有2次雷电，其中序号为2的雷电时间为2025-05-08 19:46:30.056，距离3522杆塔214m，与分布式监测系统诊断的情况一致，雷电流幅值为19.6kA，可判断故障原因为雷击-绕击。","fire":{},"ice":{},"L1":{"ret":"雷击","flashList":{"km":214.0,"coode":"1001","latitude":"27.835283","strMltiplicity":"单次回击","tdfString":"怀宁数字站,黄梅（新）,黄石,黄冈桐梓,上饶玉山,赣西/新余(新),九江湖口(新),上饶铅山,抚州乐安,宜春石市,茶陵","type":"绕击","peakCurrent":19.6,"linFlash":{"linFlash":[{"sequence":"1","km":4537.0,"tdfsum":4,"latitude":"27.809218","strMltiplicity":"单次回击","tdfString":"赣西/新余(新),广昌(新),南昌(新),抚州乐安","timeDate":"2025-05-08 19:46:29.951","peakCurrent":11.1,"longitude":"116.000472"},{"sequence":"2","km":214.0,"tdfsum":11,"latitude":"27.835283","strMltiplicity":"单次回击","tdfString":"怀宁数字站,黄梅（新）,黄石,黄冈桐梓,上饶玉山,赣西/新余(新),九江湖口(新),上饶铅山,抚州乐安,宜春石市,茶陵","timeDate":"2025-05-08 19:46:30.056","peakCurrent":19.6,"longitude":"116.038658"}]},"sequence":"2","flashNum":"  分布式监测系统诊断故障原因为雷击，雷电定位系统查得3522塔附近5000m范围，前后一分钟内有2次雷电，其中序号为2的雷电时间为2025-05-08 19:46:30.056，距离3522杆塔214m，与分布式监测系统诊断的情况一致，雷电流幅值为19.6kA，可判断故障原因为雷击-绕击。","tdfsum":11,"timeDate":"2025-05-08 19:46:30.056","longitude":"116.038658"}},"wave":{}}}

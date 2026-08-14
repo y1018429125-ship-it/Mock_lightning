@@ -1,0 +1,19 @@
+curl 'http://10.238.0.5:31269/tgyApiservice/tripdiagnosisservice/getWeather' \
+  -H 'Connection: keep-alive' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'withCredentials: true' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 SGSBrowser/2.0 Safari/537.36' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'Origin: http://10.238.0.5:31269' \
+  -H 'Referer: http://10.238.0.5:31269/' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  --data-raw 'tripId=S_Y202505080552&access_token=04513397DA1A81C9DBA1511B953E4B505B0DA383412943558A5166725E0CC91B0DC53B334345CDFA2FCE4F550237E60224412AB23701352C378C17228DD6EF904312F5EBEC25472A03FD4DCB513A8705333CABD010126553BDADB4FDD78803D679329070B3101A7BA3192F2151CE2224F4040B' \
+  --compressed \
+  --insecure
+
+curl -X POST 'http://10.238.0.5:31269/tgyApiservice/tripdiagnosisservice/getWeather' \
+  -d 'tripId=S_Y202505080552' \
+  -d 'access_token=04052C403DECF923A569BEB814A860EC8F1B7B15D41B470C1C3B89B78E90EBB6A895E5716E926F1100B0AD482326201BAE50EA7DFB32D727F5ABB59AB32D78476258F5B40E00EAD8DB4E1AF4AC3BF95AB82DAA678443F0EFFAAC175E09FCB86CF3822DE2EA99BC0AE5EF0FD6C7BB1B934501EB'
+
+
+{"code":1001,"data":{"predict":{"48h":[],"24h":[],"72h":[]},"real":{"id":45,"tripId":"S_Y202505080552","ws":3.40831,"wd":298.877,"tmp":26.1303,"hum":80.1612,"pre":1.1108,"vis":23763.0,"atm":-999.0}}}

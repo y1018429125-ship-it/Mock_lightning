@@ -1,0 +1,624 @@
+curl 'http://10.238.0.5:31269/tgyApiservice/flashqueryservice/getWorkPressureLineGroupList' \
+  -H 'Connection: keep-alive' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'withCredentials: true' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 SGSBrowser/2.0 Safari/537.36' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'Origin: http://10.238.0.5:31269' \
+  -H 'Referer: http://10.238.0.5:31269/' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  --data-raw 'access_token=04513397DA1A81C9DBA1511B953E4B505B0DA383412943558A5166725E0CC91B0DC53B334345CDFA2FCE4F550237E60224412AB23701352C378C17228DD6EF904312F5EBEC25472A03FD4DCB513A8705333CABD010126553BDADB4FDD78803D679329070B3101A7BA3192F2151CE2224F4040B' \
+  --compressed \
+  --insecure
+
+
+curl -X POST 'http://10.238.0.5:31269/tgyApiservice/flashqueryservice/getWorkPressureLineGroupList' \
+  -d 'access_token=0488A454FAC7E498A6107A27334F0367108861FE93CD9AD6D94435FDADD1C260E641CFBB59128A345D21106CAAE25BC1EF245C75F0ED1AAA8013C472839BAD68722C5B6ABE5FE33029FD0005F85531B0092CC867FBB3C7ABD524CBDA796DB734B1C58D0AFC642D7A7F49BCD24B798C59CAEF98'
+
+
+{
+    "code": 1001,
+    "data": {
+        "±1100": [
+            {
+                "lineId": 395085,
+                "lineName": "吉泉线",
+                "lineFullName": "国网_跨区_无_1100_吉泉线"
+            }
+        ],
+        "±800": [
+            {
+                "lineId": 135758,
+                "lineName": "宾金线",
+                "lineFullName": "国网_跨区_无_800_宾金线"
+            },
+            {
+                "lineId": 135759,
+                "lineName": "复奉线",
+                "lineFullName": "国网_跨区_无_800_复奉线"
+            },
+            {
+                "lineId": 135761,
+                "lineName": "锦苏线",
+                "lineFullName": "国网_跨区_无_800_锦苏线"
+            },
+            {
+                "lineId": 395062,
+                "lineName": "灵绍线",
+                "lineFullName": "国网_跨区_无_800_灵绍线"
+            },
+            {
+                "lineId": 395064,
+                "lineName": "鲁固线",
+                "lineFullName": "国网_跨区_无_800_鲁固线"
+            },
+            {
+                "lineId": 395065,
+                "lineName": "祁韶线",
+                "lineFullName": "国网_跨区_无_800_祁韶线"
+            },
+            {
+                "lineId": 395066,
+                "lineName": "天中线",
+                "lineFullName": "国网_跨区_无_800_天中线"
+            },
+            {
+                "lineId": 395067,
+                "lineName": "锡泰线",
+                "lineFullName": "国网_跨区_无_800_锡泰线"
+            },
+            {
+                "lineId": 395068,
+                "lineName": "雁淮线",
+                "lineFullName": "国网_跨区_无_800_雁淮线"
+            },
+            {
+                "lineId": 395069,
+                "lineName": "昭沂线",
+                "lineFullName": "国网_跨区_无_800_昭沂线"
+            },
+            {
+                "lineId": 399734,
+                "lineName": "青豫线",
+                "lineFullName": "国网_跨区_无_800_青豫线"
+            },
+            {
+                "lineId": 410201,
+                "lineName": "雅湖线",
+                "lineFullName": "国网_跨区_无_800_雅湖线"
+            },
+            {
+                "lineId": 410216,
+                "lineName": "陕武线",
+                "lineFullName": "国网_跨区_无_800_陕武线"
+            },
+            {
+                "lineId": 460450,
+                "lineName": "建苏线",
+                "lineFullName": "国网_跨区_无_800_建苏线"
+            },
+            {
+                "lineId": 460451,
+                "lineName": "金塘线",
+                "lineFullName": "国网_跨区_无_800_金塘线"
+            },
+            {
+                "lineId": 900027,
+                "lineName": "庆东线",
+                "lineFullName": "国网_跨区_无_800_庆东线"
+            },
+            {
+                "lineId": 900028,
+                "lineName": "坤渝线",
+                "lineFullName": "国网_跨区_无_800_坤渝线"
+            },
+            {
+                "lineId": 900029,
+                "lineName": "中衡线",
+                "lineFullName": "国网_跨区_无_800_中衡线"
+            },
+            {
+                "lineId": 900030,
+                "lineName": "金永线",
+                "lineFullName": "国网_跨区_无_800_金永线"
+            }
+        ],
+        "1000": [
+            {
+                "lineId": 395074,
+                "lineName": "泰吴Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_泰吴Ⅱ线"
+            },
+            {
+                "lineId": 395075,
+                "lineName": "泰吴Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_泰吴Ⅰ线"
+            },
+            {
+                "lineId": 395077,
+                "lineName": "安塘Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_安塘Ⅱ线"
+            },
+            {
+                "lineId": 395078,
+                "lineName": "安塘Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_安塘Ⅰ线"
+            },
+            {
+                "lineId": 395079,
+                "lineName": "安兰Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_安兰Ⅱ线"
+            },
+            {
+                "lineId": 395080,
+                "lineName": "安兰Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_安兰Ⅰ线"
+            },
+            {
+                "lineId": 395081,
+                "lineName": "都榕Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_都榕Ⅱ线"
+            },
+            {
+                "lineId": 395082,
+                "lineName": "南荆Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_南荆Ⅰ线"
+            },
+            {
+                "lineId": 395083,
+                "lineName": "泉乐Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_泉乐Ⅰ线"
+            },
+            {
+                "lineId": 395084,
+                "lineName": "泉乐Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_泉乐Ⅱ线"
+            },
+            {
+                "lineId": 395087,
+                "lineName": "湖泉Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_湖泉Ⅰ线"
+            },
+            {
+                "lineId": 395088,
+                "lineName": "湖泉Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_湖泉Ⅱ线"
+            },
+            {
+                "lineId": 395090,
+                "lineName": "高乐Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_高乐Ⅱ线"
+            },
+            {
+                "lineId": 395091,
+                "lineName": "高乐Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_高乐Ⅰ线"
+            },
+            {
+                "lineId": 395092,
+                "lineName": "沂高Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_沂高Ⅱ线"
+            },
+            {
+                "lineId": 395093,
+                "lineName": "沂高Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_沂高Ⅰ线"
+            },
+            {
+                "lineId": 395094,
+                "lineName": "固乐Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_固乐Ⅱ线"
+            },
+            {
+                "lineId": 395095,
+                "lineName": "固乐Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_固乐Ⅰ线"
+            },
+            {
+                "lineId": 395096,
+                "lineName": "定台Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_定台Ⅱ线"
+            },
+            {
+                "lineId": 395097,
+                "lineName": "定台Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_定台Ⅰ线"
+            },
+            {
+                "lineId": 395098,
+                "lineName": "胜锡Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_胜锡Ⅱ线"
+            },
+            {
+                "lineId": 395099,
+                "lineName": "胜锡Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_胜锡Ⅰ线"
+            },
+            {
+                "lineId": 395100,
+                "lineName": "圩淮Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_圩淮Ⅰ线"
+            },
+            {
+                "lineId": 395102,
+                "lineName": "淮盱Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_淮盱Ⅱ线"
+            },
+            {
+                "lineId": 395103,
+                "lineName": "淮盱Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_淮盱Ⅰ线"
+            },
+            {
+                "lineId": 395106,
+                "lineName": "横洪Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_横洪Ⅰ线"
+            },
+            {
+                "lineId": 395107,
+                "lineName": "鄂岳Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_鄂岳Ⅱ线"
+            },
+            {
+                "lineId": 395108,
+                "lineName": "鄂岳Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_鄂岳Ⅰ线"
+            },
+            {
+                "lineId": 395109,
+                "lineName": "吴塘Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_吴塘Ⅱ线"
+            },
+            {
+                "lineId": 395110,
+                "lineName": "吴塘Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_吴塘Ⅰ线"
+            },
+            {
+                "lineId": 395111,
+                "lineName": "洪台Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_洪台Ⅰ线"
+            },
+            {
+                "lineId": 395112,
+                "lineName": "盱泰Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_盱泰Ⅱ线"
+            },
+            {
+                "lineId": 395113,
+                "lineName": "盱泰Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_盱泰Ⅰ线"
+            },
+            {
+                "lineId": 395114,
+                "lineName": "定河Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_定河Ⅰ线"
+            },
+            {
+                "lineId": 395115,
+                "lineName": "定河Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_定河Ⅱ线"
+            },
+            {
+                "lineId": 395116,
+                "lineName": "横洪Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_横洪Ⅱ线"
+            },
+            {
+                "lineId": 395117,
+                "lineName": "都榕Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_都榕Ⅰ线"
+            },
+            {
+                "lineId": 395118,
+                "lineName": "江莲Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_江莲Ⅱ线"
+            },
+            {
+                "lineId": 395119,
+                "lineName": "江莲Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_江莲Ⅰ线"
+            },
+            {
+                "lineId": 395120,
+                "lineName": "湖安Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_湖安Ⅱ线"
+            },
+            {
+                "lineId": 395121,
+                "lineName": "湖安Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_湖安Ⅰ线"
+            },
+            {
+                "lineId": 395122,
+                "lineName": "淮芜Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_淮芜Ⅱ线"
+            },
+            {
+                "lineId": 395123,
+                "lineName": "淮芜Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_淮芜Ⅰ线"
+            },
+            {
+                "lineId": 395124,
+                "lineName": "长南Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_长南Ⅰ线"
+            },
+            {
+                "lineId": 395125,
+                "lineName": "洪台Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_洪台Ⅱ线"
+            },
+            {
+                "lineId": 395126,
+                "lineName": "岳定Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_岳定Ⅰ线"
+            },
+            {
+                "lineId": 395127,
+                "lineName": "岳定Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_岳定Ⅱ线"
+            },
+            {
+                "lineId": 399319,
+                "lineName": "锡廊Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_锡廊Ⅰ线"
+            },
+            {
+                "lineId": 399320,
+                "lineName": "锡廊Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_锡廊Ⅱ线"
+            },
+            {
+                "lineId": 399321,
+                "lineName": "河泉Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_河泉Ⅰ线"
+            },
+            {
+                "lineId": 399322,
+                "lineName": "河泉Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_河泉Ⅱ线"
+            },
+            {
+                "lineId": 399323,
+                "lineName": "廊河Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_廊河Ⅰ线"
+            },
+            {
+                "lineId": 399324,
+                "lineName": "廊河Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_廊河Ⅱ线"
+            },
+            {
+                "lineId": 399325,
+                "lineName": "台泉Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_台泉Ⅰ线"
+            },
+            {
+                "lineId": 399326,
+                "lineName": "台泉Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_台泉Ⅱ线"
+            },
+            {
+                "lineId": 399687,
+                "lineName": "台曹Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_台曹Ⅰ线"
+            },
+            {
+                "lineId": 399688,
+                "lineName": "台曹Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_台曹Ⅱ线"
+            },
+            {
+                "lineId": 399745,
+                "lineName": "庄横Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_庄横Ⅰ线"
+            },
+            {
+                "lineId": 399746,
+                "lineName": "赵横Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_赵横Ⅰ线"
+            },
+            {
+                "lineId": 399748,
+                "lineName": "曹湖Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_曹湖Ⅰ线"
+            },
+            {
+                "lineId": 399752,
+                "lineName": "曹湖Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_曹湖Ⅱ线"
+            },
+            {
+                "lineId": 399753,
+                "lineName": "湖高Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_湖高Ⅰ线"
+            },
+            {
+                "lineId": 399754,
+                "lineName": "湖高Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_湖高Ⅱ线"
+            },
+            {
+                "lineId": 407574,
+                "lineName": "哈胜Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_哈胜Ⅰ线"
+            },
+            {
+                "lineId": 407575,
+                "lineName": "马胜Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_马胜Ⅰ线"
+            },
+            {
+                "lineId": 407576,
+                "lineName": "豫阳Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_豫阳Ⅰ线"
+            },
+            {
+                "lineId": 407577,
+                "lineName": "豫阳Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_豫阳Ⅱ线"
+            },
+            {
+                "lineId": 407578,
+                "lineName": "鄂洪Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_鄂洪Ⅱ线"
+            },
+            {
+                "lineId": 407579,
+                "lineName": "鄂洪Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_鄂洪Ⅰ线"
+            },
+            {
+                "lineId": 407580,
+                "lineName": "湛长一线",
+                "lineFullName": "国网_跨区_无_1000_湛长一线"
+            },
+            {
+                "lineId": 407581,
+                "lineName": "丹长一线",
+                "lineFullName": "国网_跨区_无_1000_丹长一线"
+            },
+            {
+                "lineId": 407584,
+                "lineName": "家定Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_家定Ⅰ线"
+            },
+            {
+                "lineId": 407585,
+                "lineName": "家定Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_家定Ⅱ线"
+            },
+            {
+                "lineId": 410204,
+                "lineName": "潇江Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_潇江Ⅰ线"
+            },
+            {
+                "lineId": 410215,
+                "lineName": "潇江Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_潇江Ⅱ线"
+            },
+            {
+                "lineId": 468776,
+                "lineName": "荆武Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_荆武Ⅰ线"
+            },
+            {
+                "lineId": 468768,
+                "lineName": "荆潇Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_荆潇Ⅰ线"
+            },
+            {
+                "lineId": 900002,
+                "lineName": "荆潇Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_荆潇Ⅱ线"
+            },
+            {
+                "lineId": 900003,
+                "lineName": "南荆Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_南荆Ⅱ线"
+            },
+            {
+                "lineId": 900004,
+                "lineName": "武黄Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_武黄Ⅰ线"
+            },
+            {
+                "lineId": 900005,
+                "lineName": "武黄Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_武黄Ⅱ线"
+            },
+            {
+                "lineId": 468775,
+                "lineName": "荆武Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_荆武Ⅱ线"
+            },
+            {
+                "lineId": 900010,
+                "lineName": "欣胜一线",
+                "lineFullName": "国网_跨区_无_1000_欣胜一线"
+            },
+            {
+                "lineId": 468771,
+                "lineName": "豫武Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_豫武Ⅰ线"
+            },
+            {
+                "lineId": 468772,
+                "lineName": "豫武Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_豫武Ⅱ线"
+            },
+            {
+                "lineId": 900013,
+                "lineName": "榕泰Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_榕泰Ⅰ线"
+            },
+            {
+                "lineId": 900014,
+                "lineName": "榕泰Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_榕泰Ⅱ线"
+            },
+            {
+                "lineId": 468769,
+                "lineName": "酸鄂Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_酸鄂Ⅰ线"
+            },
+            {
+                "lineId": 468774,
+                "lineName": "界横Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_界横Ⅰ线"
+            },
+            {
+                "lineId": 900017,
+                "lineName": "黄江Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_黄江Ⅰ线"
+            },
+            {
+                "lineId": 900018,
+                "lineName": "黄江Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_黄江Ⅱ线"
+            },
+            {
+                "lineId": 900019,
+                "lineName": "天岳一线",
+                "lineFullName": "国网_跨区_无_1000_天岳一线"
+            },
+            {
+                "lineId": 900020,
+                "lineName": "天岳二线",
+                "lineFullName": "国网_跨区_无_1000_天岳二线"
+            },
+            {
+                "lineId": 900021,
+                "lineName": "天蓉一线",
+                "lineFullName": "国网_跨区_无_1000_天蓉一线"
+            },
+            {
+                "lineId": 900022,
+                "lineName": "天蓉二线",
+                "lineFullName": "国网_跨区_无_1000_天蓉二线"
+            },
+            {
+                "lineId": 900023,
+                "lineName": "甘天一线",
+                "lineFullName": "国网_跨区_无_1000_甘天一线"
+            },
+            {
+                "lineId": 900024,
+                "lineName": "甘天二线",
+                "lineFullName": "国网_跨区_无_1000_甘天二线"
+            },
+            {
+                "lineId": 900025,
+                "lineName": "胜家Ⅰ线",
+                "lineFullName": "国网_跨区_无_1000_胜家Ⅰ线"
+            },
+            {
+                "lineId": 900026,
+                "lineName": "胜家Ⅱ线",
+                "lineFullName": "国网_跨区_无_1000_胜家Ⅱ线"
+            }
+        ]
+    }
+}
